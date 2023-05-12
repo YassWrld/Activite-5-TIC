@@ -1,0 +1,98 @@
+@import url("https://fonts.cdnfonts.com/css/poppins");
+
+body {
+  background-color: #292e36;
+  font-family: "Poppins";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.left {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 30px 0;
+  row-gap: 20px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  row-gap: 20px;
+}
+
+.center h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 2rem;
+  background: radial-gradient(
+    100.84% 3376.69% at -0.34% 40.35%,
+    #fabec3 4.69%,
+    #fffdcc 35.94%,
+    #cafcd2 68.23%,
+    #ecccff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center img {
+  max-width: 90%;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 30px 0;
+  row-gap: 20px;
+}
+
+.title-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 7px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #292e36;
+}
+
+#C1 {
+  background: #fabec3;
+}
+
+#C2 {
+  background: #fffdcc;
+}
+
+#C3 {
+  background: #cafcd2;
+}
+
+#C4 {
+  background: #ecccff;
+}
+
+#C5 {
+  background: #a9eff3;
+}
+.title-button a {
+  text-decoration: none;
+  color: #292e36;
+  font-size: 24px;
+}
